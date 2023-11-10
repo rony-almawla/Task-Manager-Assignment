@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgreen;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  #app-container {
+    width: 80%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+  } 
+
+  #image-container {
+    width: 600px; 
+    height: 600px;
+    
+    box-sizing: border-box;
+    
+    border-radius: 10px;
+    background-image: url(./assets/download.png);
+  }
+
+  #task-manager-container {
+    width: 600px;
+    height: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #3498db; 
+    border-radius: 10px;
+    margin-left: 20px;
+  }
+
+  h1 {
+    color: white;
+    padding: 10px;
+    margin: 0;
+  }
+
+  #taskInput {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+  }
+
+  #addTask {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+
+  #addTask:hover {
+    background-color: #21618c;
+  }
+
+  #filter {
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    background-color: white;
+    padding: 10px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+  }
+
+  .completed {
+    text-decoration: line-through;
+  }
+
+  .active {
+    background-color: yellow;
+  }
+
+  button {
+    background-color: yellow;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #007acc; 
+  }
+
+  .color-input {
+    padding: 5px;
+    width: 60px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .complete-checkbox {
+    margin-right: 10px;
+  }
+
+  #image-container img {
+    width: 100%;
+    border-radius: 5px;
+  } 
